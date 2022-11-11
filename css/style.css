@@ -1,0 +1,388 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+/*全体*/
+html{
+    font-size: 62.5%;/*16px × 62.5% =10px */
+}
+body{
+    color: #333333;
+    /*不要？*/font-family:"Open Sans" , "ヒラギノ角互roN W3", Hiragino Kaku Gothic Pron, "メイリオ", Meiyo, sans-serif;
+    font-size: 1.6rem;
+    max-width: 1200px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.title-main{
+    margin: 0 0 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+}
+/*タイトル*/
+.site-title{
+    font-size:2.4rem ;
+    font-weight: bold;
+    }
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 0;
+}
+.menu{
+    font-size: 2.1rem;
+    display: flex;
+}
+.theme{
+    font-size: 2.0rem;
+}
+.header-section{
+    font-size: 21px;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}    
+.header-nav{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+.logo{
+    font-size: 100px;
+    margin: 0 10px 0 0;
+}
+.header-first{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 1.0;
+}
+.header-logo-sub{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+
+}
+
+.header-visual{
+    position: relative;
+    width: 100%;
+}
+
+.header-subtitle{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: (-50%,-50%);
+    -webkit-transform: (-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.header-theme{
+    font-size: 32px;
+    font-weight: bold;
+ 
+}
+.header-subtheme{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+
+
+/*About*/
+.profile-div{
+    margin:auto;
+    text-align: center;
+    max-width: 100%;
+}
+.about-title{
+    margin: 0 0 30px;
+    color: #ffd61a;
+    font-weight: bold;
+}
+.about-text-sentence{
+    margin: 30px;
+
+}
+.about-img{
+    display: flex;
+    width: 25%;
+    max-width: 100%;
+    margin: 0 0 60px;
+}
+.about-text-title{
+    margin-bottom: 60px;
+}
+.about-text1{
+    line-height: 1.5;
+    width: 650px;
+    margin: 0 auto 40px auto;
+}
+.about-text2{
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+.about-text3{
+    line-height: 1.5;
+    width: 450px;
+    margin: 0 auto 80px auto;
+}
+
+
+/*コース*/
+.course-section{
+    margin: 0 0 60px;
+}
+.course-title{
+    text-align: center;
+    width: 520px;
+    line-height: 1.5;
+    margin: 0 auto 60px auto;
+}
+/*左画像*/
+.course-textpart{
+    display: flex;
+    max-width: 100%;
+    background-color: #fafafa;
+}
+.course-img{
+    width: 50%;
+}
+.course-text{
+    width: 50%;
+    width: 430px;
+    margin: 120px 0 0 50px;
+}
+.course-subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 40px;
+}
+.course-textmessage{
+    font-size: 16px;
+    line-height: 1.5;
+}
+/*右画像*/
+.course-text1{
+    width: 50%;
+    width: 480px;
+    margin: 120px 50px 0 auto;
+}
+
+
+/*ニュース*/
+.nesw-section{
+   text-align: center;
+   margin-bottom:60px;
+}
+.news-text{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.news-content{
+    max-width: 100%;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.news-topics{
+    width: 300px;
+    text-align: left;
+    transition: .4s;
+}
+.news-topics:hover{
+    background-color: #a0a0a0;
+}
+
+.news-title{
+    margin: 0 0 30px;
+    color: #ffd61a;
+    font-weight: bold;
+}
+.btn{  
+    display: block;
+    width: 300px;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 60px auto;
+    padding: 21px 0;
+    text-align: center;
+}
+.news-date{
+    margin-bottom: 24px;
+}
+.news-img{
+    margin-bottom: 30px;
+}
+
+/*アクセス*/
+
+.access-section{
+    background-color: #fafafa;
+    margin-bottom: 60px;
+}
+.access-title{
+    padding-top: 60px;
+}
+
+.access-text{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.access-inner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+}
+.access-dt{
+    width: 150px;
+}
+.access-dd{
+    width: 350px;
+    margin-bottom: 30px;
+}
+.map{
+    margin: initial;
+    width: initial;
+    margin: 0 0 60px 0;
+    width:1200px ;
+}
+
+
+
+
+
+/*問い合わせ*/
+.contact{
+    margin-bottom: 140px;
+}
+.contact-all{
+    width:680px;
+    margin: auto;
+    border-color: #bfbfbf;
+}
+
+.contact-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.contact-dt{
+    width: 180px;
+    padding: 16px 64px 8px 8px;
+    font-weight: bold;
+    border-right: solid;
+    border-bottom: solid;
+    border-color: #bfbfbf;
+    border-width: 1px;     
+}
+
+.contact-dd{
+    display: flex;
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid;
+    border-color: #bfbfbf;
+    border-width: 1px;
+
+}
+.contact-dd-selection{
+    margin-left:8px ;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-style: dotted;
+}
+
+.contact-main-text{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contact-text1{
+    margin: 0 auto 5px auto;
+    width: 420px;
+    text-align: center;
+}
+.contact-text2{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.contact-text3{
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+.contact-text4{
+    text-align: center;
+    margin: 0 auto 70px auto;
+}
+.contact-dd-radio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.contact-name{
+    border-top: solid;
+    border-color: #bfbfbf;
+    border-width: 1px;
+}
+
+.contact-part{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20pxpx;
+    margin-left:8px ;
+    border-style: dotted;
+}
+input[type*="checkbox"]{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    border: solid 1px #a0a0a0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    vertical-align: -2px;
+}
+input[type*="checkbox"]:checked{
+    background-color: #a0a0a0;
+}
+label{
+    display: block;
+    margin: 0 0 24px 0;
+}
+
+.btn-submit{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    border: none;
+}
+
+/*Footer*/
+.footer{
+    color: #fff ;
+    max-width: 100%;
+    padding: 30px 0;
+    width: 1200px;
+    text-align: center;
+    background-color: #707070;
+}
+
